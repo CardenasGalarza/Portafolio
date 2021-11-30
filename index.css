@@ -302,17 +302,12 @@ footer .container{
         background-position:  calc(100vw - 500px) 120px;
     }
 
-    #caracteristicas {
-        -webkit-filter: contrast(200%);
-        filter: contrast(200%);
-        }
-
    #caracteristicas .container{
     text-align: initial;
    }
 
    #caracteristicas ul{
-       margin-left: 100px;
+    margin-left: 100px;
    }
 
    #final h2{
