@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+
+
+header nav a{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto, "sans-serif";
+    font-size: 1.2rem;
+}
+
+header nav a::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: yellowgreen;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+
+header nav a:hover::before {
+    width: 100%;
+}
