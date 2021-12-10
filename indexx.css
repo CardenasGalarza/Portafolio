@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+header{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(140, 0, 75);
+    font-size: 1.6em;
+}
+
+/*contenido del header*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*contenido del header Estudios, Proyectos, Contactos*/
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+/*formato de txt de header Estudios, Proyectos, Contactos*/
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(140, 0, 75);
+}
+
+/*sub-color de txt de header Estudios, Proyectos, Contactos*/
+header a:hover{
+    color: rgb(2, 213, 250);
+}
